@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.swp
+*.swo
+*.DS_Store
+
+# Virtual Environment
+venv/
+.venv/
+
+# Environment Variables & Secrets
+.env
+.env.local
+*.secret
+
+# Logs & Temporary Files
+logs/
+*.log
+*.out
+*.pid
+*.bak
+*.tmp
+
+# Byte-compiled files
+*.pyo
+*.pyc
+
+# Jupyter Notebooks Checkpoints (if used)
+.ipynb_checkpoints/
+
+# Editor/IDE Specific
+.vscode/
+.idea/
+*.iml
+
+# Docker
+docker-compose.override.yml
+
+# Redis
+dump.rdb
+
+# FastAPI Specific
+instance/
+.venv
